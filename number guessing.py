@@ -1,6 +1,6 @@
 import random
 
-seed = int(input("Enter a random seed (integer): "))
+seed = int(input("Enter a random number (integer): "))
 random.seed(seed)
 
 top_of_range = input("Type a number: ")
