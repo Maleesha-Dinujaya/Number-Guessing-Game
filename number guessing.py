@@ -1,6 +1,5 @@
 import random
 
-
 seed = int(input("Enter a random seed (integer): "))
 random.seed(seed)
 
@@ -39,4 +38,4 @@ while True:
     else:
         print("Please type a number.")
         
-print("Congratulations! You got it in", str(guesses), "guesses")
+print("Congratulations!! You got it", str(guesses), "guesses")
