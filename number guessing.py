@@ -21,13 +21,13 @@ guesses = 0
 
 while True:
     guesses += 1
-    user_guess = input("Make a guess: ")
+    user_guess = input("Please Make a guess: ")
     
     if user_guess.isdigit():
         user_guess = int(user_guess)
     
         if user_guess == random_number:
-            print("You got it!")
+            print("Yess!! You got it!")
             break 
         
         elif user_guess > random_number:
