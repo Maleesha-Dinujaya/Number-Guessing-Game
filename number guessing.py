@@ -8,7 +8,7 @@ def check_guess():
     guess_entry.delete(0, 'end')
 
     if user_guess.isdigit():
-        user_guess = int(user_guess)
+        user_guess = int(input(user_guess))   #added functionality: add input field to get user input 
 
         if user_guess == random_number:
             messagebox.showinfo("Congratulations", f"Yess!! You got it in {guesses} guesses!")
